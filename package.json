@@ -1,0 +1,38 @@
+{
+  "name": "cursotypescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:frontend": "webpack -w",
+    "build:backend": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VQV03/cursotypescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VQV03/cursotypescript/issues"
+  },
+  "homepage": "https://github.com/VQV03/cursotypescript#readme",
+  "devDependencies": {
+    "@types/validator": "^13.7.3",
+    "@typescript-eslint/eslint-plugin": "^5.29.0",
+    "@typescript-eslint/parser": "^5.29.0",
+    "eslint": "^8.18.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.7.1",
+    "ts-loader": "^9.3.1",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.4",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "validator": "^13.7.0"
+  }
+}
